@@ -20,7 +20,7 @@ SO THAT they can create a strong password that provides greater security
 
 ## Screenshots 
 
-<img src="Assets/images/Final">
+<img src="Assets/images/Final.png">
 <img src="Assets/images/Password.png">
 
 
