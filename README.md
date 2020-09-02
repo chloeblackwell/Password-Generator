@@ -15,13 +15,13 @@ SO THAT they can create a strong password that provides greater security
 
 ## Built With 
 
-* VS Code (hhtps://code.visualstudio.com/)
+* VS Code (https://code.visualstudio.com/)
 * Terminal 
 
 ## Screenshots 
 
-<img src="assets/images/Final.png">
-<img src="assets/images/Password.png">
+<img src="Assets/images/Final">
+<img src="Assets/images/Password.png">
 
 
 ## License 
