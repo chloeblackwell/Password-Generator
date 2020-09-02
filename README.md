@@ -1,6 +1,6 @@
 # Password-Generator
 
-This assignment generates a random password that is based on criteria that the user selects. This application is powered by Javascript code. The application will be responsive to all user screen sizes and will also have a polished user interface. 
+For this assignment, we are tasked to create an application that generates a random password that is based on criteria that the user selects. This application is powered by Javascript code. The application will be responsive to all user screen sizes and will also have a polished user interface. 
 
 ## Contents 
 
@@ -20,6 +20,8 @@ SO THAT they can create a strong password that provides greater security
 
 ## Screenshots 
 
+<img src="assets/images/Final.png">
+<img src="assets/images/Password.png">
 
 
 ## License 
@@ -28,7 +30,7 @@ This assignment does not have a license.
 
 ## Link to the Application
 
-
+<a href="https://chloeblackwell.github.io/Password-Generator/">Link to webpage</a>
 
 ## Author 
 

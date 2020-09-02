@@ -74,9 +74,48 @@ function generatePassword() {
   } else if (isNumeric && isLower && isUpper) {
 
     passwordText = numericCharacters.concat(lowerCasedCharacters, upperCasedCharacters);
-  } 
 
+  } else if (isSpecial && isNumeric) {
 
+    passwordText = specialCharacters.concat(numericCharacters)
+
+  } else if (isSpecial && isLower) {
+
+    passwordText = specialCharacters.concat(lowerCasedCharacters)
+
+  } else if (isSpecial && isUpper) {
+    
+    passwordText = specialCharacters.concat(upperCasedCharacters)
+
+  } else if (isLower && isNumeric) {
+
+    passwordText = lowerCasedCharacters.concat(numericCharacters)
+
+  } else if (isLower && isUpper) {
+
+    passwordText = lowerCasedCharacters.concat(upperCasedCharacters)
+
+  } else if (isNumeric && isUpper) {
+
+    passwordText = numericCharacters.concat(upperCasedCharacters)
+
+  } else if (isSpecial) {
+
+    passwordText = specialCharacters
+
+  } else if (isNumeric) {
+
+    passwordText = numericCharacters
+
+  } else if (isLower) {
+
+    passwordText = lowerCasedCharacters
+
+  } else if (isUpper) {
+
+    passwordText = upperCasedCharacters
+
+  }
 
   var password = [ ];  
   // Random generation for password 
@@ -85,11 +124,6 @@ function generatePassword() {
     password.push(random);
   } 
   return password.join('');
-
-  
-
-
-
 
 }
 
