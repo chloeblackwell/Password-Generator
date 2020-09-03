@@ -1,6 +1,6 @@
 // User Input variables 
 
-var length;
+var button;
 
 // Array's of Characters 
 
@@ -32,14 +32,14 @@ function generatePassword() {
   
   // User input 
 
-  length = prompt ("How many characters would you like? Choose between 8 and 128 characters");
+  button = prompt ("How many characters would you like? Choose between 8 and 128 characters");
 
   // If Else Statement to generate password 
 
-  if (!length) {
+  if (!button) {
   alert ("This must have a value!")
-  }  else if (length < 8 || length > 128) {
-    length = prompt ("You must choose between 8 and 128!");
+  }  else if (button < 8 || button > 128) {
+    button = prompt ("You must choose between 8 and 128!");
     
   } else {
 
@@ -119,7 +119,7 @@ function generatePassword() {
 
   var password = [ ];  
   // Random generation for password 
-  for ( var i = 0; i < length; i++) {
+  for ( var i = 0; i < button; i++) {
     var random = passwordText[Math.floor(Math.random() * passwordText.length)];
     password.push(random);
   } 
